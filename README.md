@@ -34,4 +34,4 @@ Contributions to this repository are welcome! If you have suggestions for improv
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](https://github.com/randy-kip/ergo-quantum-challenge/blob/main/LICENSE.md).
