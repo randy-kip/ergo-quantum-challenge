@@ -18,16 +18,16 @@ def compute_square_root(a, initial_guess, threshold=1e-6, max_iterations=100):
     # Iterate until the stopping criteria are met
     while True:
         # Compute the next guess using the provided equation
-        xn_plus_1 = x - (x ** 2 - a) / (2 * x)
-        
+        next_guess = x - (x ** 2 - a) / (2 * x)
+
         # Stopping criteria: check the difference between successive iterations
-        if abs(xn_plus_1 - x) < threshold or iteration >= max_iterations:
+        if abs(next_guess - x) < threshold or iteration >= max_iterations:
             break
-        
+
         # Update the current guess for the next iteration
-        x = xn_plus_1
+        x = next_guess
         iteration += 1
-    
+
     return x
 
 
