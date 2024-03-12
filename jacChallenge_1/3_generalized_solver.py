@@ -45,7 +45,7 @@ def gradient_function(x):
     return math.cos(x) - 0.5
 
 # Initial guess
-initial_guess = 1.0
+initial_guess = 5.0
 
 # Convergence threshold
 threshold = 1e-6

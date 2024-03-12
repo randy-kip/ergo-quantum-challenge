@@ -66,7 +66,7 @@ def plot_function(f, domain_min, domain_max):
   plt.show()
 
 # Initial values
-initial_values = [1.0, 2.0, 4.0, 1.5]
+initial_values = [1.0, 2.0, 4.0, 9.5]
 
 # Find solutions and print results
 for x_0 in initial_values:
